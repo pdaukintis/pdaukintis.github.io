@@ -1,0 +1,53 @@
+.quote-head p {
+	font-size: 17px;
+	/*font-style: italic;*/
+	padding-top: 130px;
+}
+
+.links li a {
+	padding-left: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: blue;
+	opacity: 0.8;
+}
+
+
+.author-name {
+	font-size: 17px;
+	color: rgba(0,0,0,0.3);
+}
+
+
+.links {
+	margin-top: 100px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.links li {
+	padding: 10px;
+	list-style: none;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.quote-head p {
+		font-size: 15px;
+		/*font-style: italic;*/
+		padding-top: 60px;
+	}
+
+	.author-name{
+		font-size: 14px;
+		color: rgba(0,0,0,0.3);
+	}
+
+	.links {
+		margin-top: 80px;
+	}
+}
+
+
